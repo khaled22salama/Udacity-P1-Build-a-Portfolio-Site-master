@@ -1,0 +1,159 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    font-weight: 300;
+    background-image: url("images/bg.png");
+    background-position: 0 0;
+    background-repeat: repeat;
+	
+}
+
+
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 42px;
+	font-weight: 300;
+	color: #000;
+}
+
+.top-wrapper {
+	padding-top:8px;
+	border-bottom: 2px solid #e6e6e6;
+	padding-bottom:8px;
+}
+
+#logo {
+	margin-top:45px;
+}
+.headertitle {
+	color:#e86054;
+	text-align:right;
+}
+
+.worktitle {
+	color:#e86054;
+	margin-top:25px;
+	margin-bottom:25px;
+	font-style:italic;
+}
+
+.contat {
+	text-align:left;
+}
+.contat span{
+	padding-right:10px;
+}
+.call {
+	text-align:left;
+}
+.call span{
+	padding-right:10px;
+}
+.socail {
+	text-align:right;
+}
+.socail span{
+	padding-right:10px;
+}
+
+.main {
+	margin-bottom:15px;
+}
+
+.footer { 
+	border-top: 2px solid #e6e6e6;
+	margin-top:20px;
+	padding-top:15px;
+}
+	
+
+/* Custom, iPhone Retina */ 
+	@media only screen and (max-width : 320px) {
+		       
+#logo {
+   text-align:center;
+}
+.headertitle {
+	text-align:center;
+}
+.contat {
+	text-align:center;
+	padding-bottom:10px;
+}
+.call {
+	text-align:center;
+	padding-bottom:10px;
+}
+.socail {
+	text-align:center;
+	padding-bottom:10px;
+}
+.box {
+	padding-bottom:20px;
+}
+.worktitle {
+	text-align:center;font-size:24px;
+}
+
+}
+
+@media only screen and (max-width : 480px) {
+	#logo {
+   text-align:center;
+}
+.headertitle {
+	text-align:center;
+}
+.contat {
+	text-align:center;
+	padding-bottom:10px;
+}
+.call {
+	text-align:center;
+	padding-bottom:10px;
+}
+.socail {
+	text-align:center;
+	padding-bottom:10px;
+}
+.box {
+	padding-bottom:20px;
+}
+.worktitle {
+	text-align:center;font-size:24px;
+}
+}
+
+@media only screen and (max-width : 768px) {
+#logo {
+   text-align:center;
+}
+.headertitle {
+	text-align:center;
+}
+.contat {
+	text-align:center;
+	padding-bottom:10px;
+}
+.call {
+	text-align:center;
+	padding-bottom:10px;
+}
+.socail {
+	text-align:center;
+	padding-bottom:10px;
+}
+.box {
+	padding-bottom:20px;
+}
+.worktitle {
+	text-align:center;font-size:36px;
+}	
+	
+}
+
+
